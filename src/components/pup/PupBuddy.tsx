@@ -1,3 +1,5 @@
+"use client";
+
 import { POSES, type Pose } from "./poses";
 
 type Props = {

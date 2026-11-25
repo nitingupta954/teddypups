@@ -4,6 +4,7 @@ import { Footer } from "@/components/site/Footer";
 import { Header } from "@/components/site/Header";
 import { MobileBar } from "@/components/site/MobileBar";
 import { SmoothScroll } from "@/components/site/SmoothScroll";
+import { PupJourney } from "@/components/site/PupJourney";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Skip to content
         </a>
         <Header />
+        <PupJourney label="Teddy" />
         <main id="main">{children}</main>
         <Footer />
         <MobileBar />
